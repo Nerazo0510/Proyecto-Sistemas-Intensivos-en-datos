@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tiene 1 local" directorySegmentName="seg_0" id="45132429-ABE5-AB3B-9EA4-69B742F05214">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:30:58 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<sourcePk>50FCEA08-8610-CAC1-5A51-0239F1F56090</sourcePk>
+<targetPk>24787962-4D62-8112-8739-CAAD899D386D</targetPk>
+<dominantRole>A6A26047-A919-CDE9-6C0E-444E1F0B36A8</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A6A26047-A919-CDE9-6C0E-444E1F0B36A8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>389D76C1-1A33-B4BC-1547-B55CE65A7A80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

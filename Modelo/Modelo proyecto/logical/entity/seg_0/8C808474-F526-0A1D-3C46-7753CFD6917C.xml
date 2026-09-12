@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C808474-F526-0A1D-3C46-7753CFD6917C" name="JUGADOR">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:20:43 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_jugador" id="18DD2754-F11B-43CD-3B3C-8CD332E113D3">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:20:53 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="FDBAB586-F6D8-0A71-59C4-8CE511CBDCA9">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:21:09 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posicion" id="D213FFAB-72EF-E5A5-F0CE-3302BA97BF9B">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:21:21 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_camiseta" id="6A0AC6F1-427A-8E7F-7664-D76556005033">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:21:31 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo" id="DC50E0DB-B541-33F5-2E67-9EB6BC26D464">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:35:33 UTC</createdTime>
+<generatorID>B4A7FBFC-E5CF-1380-3D3A-7B6029F36CC4</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>41408C19-8DE9-95EF-F2AD-8D74A8334D1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="243B1503-58B7-FD93-D88B-B327C49CD23D" name="JUGADOR PK">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:21:05 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18DD2754-F11B-43CD-3B3C-8CD332E113D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

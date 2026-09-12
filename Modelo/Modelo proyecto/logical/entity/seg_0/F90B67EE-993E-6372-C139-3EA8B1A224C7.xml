@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F90B67EE-993E-6372-C139-3EA8B1A224C7" name="GOL">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:23:44 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gol" id="3D8EF80F-2E89-6C06-D307-1281609586B5">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:23:52 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto" id="A5EACEF0-16EC-FC70-9A2B-F9706B08F806">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:24:06 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="774DD599-91B4-64BA-30B8-D0A5E31944ED">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:37:45 UTC</createdTime>
+<generatorID>97EE23EE-0024-716D-BBCD-6EF088E342B2</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>383DAB5B-771B-827F-4B36-AF014A4DC115</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jugador" id="ADD4ABB9-362B-78AC-AD36-8CB33FC609FC">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:38:48 UTC</createdTime>
+<generatorID>8F0C6855-97BE-2629-BEEB-6D5ACAA01E0D</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>18DD2754-F11B-43CD-3B3C-8CD332E113D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81B0D806-1FDE-AFFD-311E-A5C66194C5CC" name="GOL PK">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:24:03 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D8EF80F-2E89-6C06-D307-1281609586B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

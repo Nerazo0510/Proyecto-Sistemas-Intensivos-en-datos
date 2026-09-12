@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dirige" directorySegmentName="seg_0" id="1F8702D7-6160-D163-DC04-A004C3D126C8">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:41:29 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<sourcePk>B1C5D4DE-A04D-0CCD-ACED-0D3B15C9B53B</sourcePk>
+<targetPk>50FCEA08-8610-CAC1-5A51-0239F1F56090</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3EFADF5-CE45-FC2D-13C6-FFC9A9514DC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6A26047-A919-CDE9-6C0E-444E1F0B36A8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

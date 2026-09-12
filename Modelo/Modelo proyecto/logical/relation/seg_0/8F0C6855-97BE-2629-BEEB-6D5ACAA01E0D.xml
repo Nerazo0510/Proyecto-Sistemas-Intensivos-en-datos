@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="marca" directorySegmentName="seg_0" id="8F0C6855-97BE-2629-BEEB-6D5ACAA01E0D">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:38:32 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<sourcePk>243B1503-58B7-FD93-D88B-B327C49CD23D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C808474-F526-0A1D-3C46-7753CFD6917C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F90B67EE-993E-6372-C139-3EA8B1A224C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

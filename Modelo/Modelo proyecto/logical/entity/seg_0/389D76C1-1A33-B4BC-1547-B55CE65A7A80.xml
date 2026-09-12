@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="389D76C1-1A33-B4BC-1547-B55CE65A7A80" name="EQUIPO">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:19:11 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_equipo" id="41408C19-8DE9-95EF-F2AD-8D74A8334D1C">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:19:36 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3EFFD026-6F5E-078C-4F42-2836326D0653">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:19:53 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="2A45D7AD-A38C-788F-66E9-835BCB454EA2">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:20:04 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año_fundacion" id="ED7496D5-4E17-95DD-C008-A8F34FC88BEE">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:20:13 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="808D8DF7-B1FB-62D7-AAEB-4DEACACE433F">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:31:24 UTC</createdTime>
+<generatorID>45132429-ABE5-AB3B-9EA4-69B742F05214</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>383DAB5B-771B-827F-4B36-AF014A4DC115</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido1" id="3633DD76-387F-CCFB-9133-FC592CAE6FB4">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:32:04 UTC</createdTime>
+<generatorID>2BF178DD-F0F0-8AAA-471C-02E62A60E863</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>383DAB5B-771B-827F-4B36-AF014A4DC115</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24787962-4D62-8112-8739-CAAD899D386D" name="EQUIPO PK">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:19:47 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41408C19-8DE9-95EF-F2AD-8D74A8334D1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

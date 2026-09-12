@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6A26047-A919-CDE9-6C0E-444E1F0B36A8" name="PARTIDO">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:22:40 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partido" id="383DAB5B-771B-827F-4B36-AF014A4DC115">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:22:48 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="70F9C994-4C90-F6F7-7F85-FB855032D6D6">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:23:03 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marcador_local" id="29AB44C3-9A2F-16C7-3A0D-9CF7FC568046">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:23:11 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marcador_visitante" id="F42947A5-FBFD-0270-DD59-C5F8CF474EEC">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:23:21 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arbitro" id="1A3B3FE5-779D-0138-4273-AF9EC9B93EB4">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:41:44 UTC</createdTime>
+<generatorID>1F8702D7-6160-D163-DC04-A004C3D126C8</generatorID>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<referedAttribute>B1AF0C4D-B6BA-A1CF-DD4E-5F6CFFA9D5B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50FCEA08-8610-CAC1-5A51-0239F1F56090" name="PARTIDO PK">
+<createdBy>erazo</createdBy>
+<createdTime>2026-08-28 13:22:59 UTC</createdTime>
+<ownerDesignName>Modelo proyecto</ownerDesignName>
+<engineerTo>
+<item key="D5DB5E85-6F1A-914F-3B3C-7168CC6E227A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>383DAB5B-771B-827F-4B36-AF014A4DC115</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
