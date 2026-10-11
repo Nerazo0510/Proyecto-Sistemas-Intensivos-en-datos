@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="alineacion" directorySegmentName="seg_0" id="C9CB60B6-1523-B1FA-1363-01704451F174">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="minuto_entrada" id="25CB7AFD-8C15-FE1E-BF47-2C140CE30EE6">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="es_titular" id="4DC0BE42-3D45-61B6-DECE-4BFC93811453">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_partido" id="6FD0D144-DEDA-7E42-5A54-2BFCA72E9B75">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_jugador" id="D4409A62-FAB9-7509-9512-0C9F8A9A3D85">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="minuto_salida" id="EF872764-50D1-78C1-B57C-5D1E3C1157B2">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_alineacion_partido" id="8B945779-6ED4-F223-8817-24D3ECE33657">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_alineacion_jugador" id="ED650B77-74C3-7FEC-D24A-3ED01193AF73">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_alineacion" id="EE4FD13A-4590-F55F-0C9E-F8EB6712B529">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

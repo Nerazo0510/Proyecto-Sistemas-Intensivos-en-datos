@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A85C76B-C28F-D6D1-3669-E0AC16BF2759" name="arbitro">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>83FCDCFB-6E39-C80C-518C-217AF3DFA630</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_arbitro" id="E49A895C-C8AD-55F1-19CD-1773DA2379AB">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>FCCBC7B8-4B19-C3A3-78F9-D06A714A9841</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DDA2A70D-F483-B6B4-9A92-F09C4ABB47AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28A1C3BD-74AF-AF81-2218-BC112C7F36D3" referredColumn="464DA2EC-AD20-6D8A-0F67-B96301E28CF9"/>
+</associations>
+</Column>
+<Column name="num_licencia" id="F30DD6FA-6BDD-7CCE-64EF-5B337B0240E7">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>E6C29737-3A52-F9A7-53F7-D202A1C1CF7A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>541E98D5-7413-379F-FC97-B85DBC12DA64</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="17962B07-F8BA-6210-8956-1D9FCB47759E">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>9ED40C8A-6D10-4EA1-B00B-D611E6998F89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>24C6469B-A3E5-413B-8752-C38DD8C61742</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_debut" id="90101C96-44B6-1C66-4E3A-3A41E3CFE746">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>AA014B95-3A79-101E-6714-2B883E45396D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E79808CB-9A4C-07C2-B441-27B24FE0282A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="463EFAE9-68B3-284F-B9A7-7343DD6C6989" name="pk_arbitro">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>5C5F3BBA-B455-656F-6077-230D46C9A2A8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49A895C-C8AD-55F1-19CD-1773DA2379AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E487F180-7C1E-DFD1-B8DF-3CE6535C25BB" name="uk_arbitro_licencia">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>7F07060F-6D5B-2B87-C2C8-7EF7E12C1221</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F30DD6FA-6BDD-7CCE-64EF-5B337B0240E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93A24E7-B221-39DC-AE49-0A9F9F613244" name="fk_arbitro_persona">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49A895C-C8AD-55F1-19CD-1773DA2379AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36FD6EF-020E-9547-296A-8F0057ACEF77" name="equipo">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>A11BF9D8-A3EE-C0E1-8D31-DE93BB7CECCA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_equipo" id="56207568-1047-2A32-C9ED-B6047605E68E">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>71AB8397-533D-B5B5-8AAE-6371BFD5498E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>40E68A40-6528-0D85-6538-BAEDB30D9D4B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="847B7C1A-E6C8-9EA2-0A3A-652469667360">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>E6345BB0-1572-DD66-8B25-DE0D209D9682</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3BA0CC11-9E5C-8B9B-4D52-6A52C4912C91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_fundacion" id="09A39CE4-F462-113B-E13E-07B3E5E8A528">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>2CE11181-1D28-E995-698D-DACEAAF989AD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E79808CB-9A4C-07C2-B441-27B24FE0282A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color_principal" id="AFBD57F7-E665-49A4-BFDF-B31D8AAE3806">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>7AFCD8A4-D00D-E13D-AFD9-F4A8F1E8BBD8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>24C6469B-A3E5-413B-8752-C38DD8C61742</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_ciudad" id="1C65DC36-7B9F-18E1-FE27-1A1B1513F9F2">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>DC6F2850-1708-0DEE-541F-975EFFA0A6EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>40E68A40-6528-0D85-6538-BAEDB30D9D4B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AB10846-E24D-6747-971F-CA2020E0BE25" referredColumn="898B3E11-E001-58DF-92BF-5C20E15DC919"/>
+</associations>
+</Column>
+<Column name="id_estadio" id="93422A11-41C8-725F-BFCC-4FC8BF3FBB36">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>375D5183-72B4-0C0F-517B-189327E7480B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>40E68A40-6528-0D85-6538-BAEDB30D9D4B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E8330FB-5616-F67E-7A8E-794E56B532A9" referredColumn="0B9AB77F-BB3E-A190-654E-F422D130FC3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD5BCE77-F35C-9B76-221A-49714F551604" name="pk_equipo">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>F696BD78-B104-C613-2C6F-063D654D2420</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56207568-1047-2A32-C9ED-B6047605E68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34FFBD7C-6670-0952-E515-B3C32AC54F8A" name="uk_equipo_nombre">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>47CA7287-AF1F-910A-C7E6-730EDF6A9D66</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847B7C1A-E6C8-9EA2-0A3A-652469667360"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4EAE220-930C-8088-05B7-35BAD6D9BCE9" name="fk_equipo_ciudad">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C65DC36-7B9F-18E1-FE27-1A1B1513F9F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C9C260F-4BF2-C614-14BE-CA49F6DE9614" name="fk_equipo_estadio">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93422A11-41C8-725F-BFCC-4FC8BF3FBB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

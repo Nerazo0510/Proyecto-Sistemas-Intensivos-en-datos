@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD23600E-AEC9-FDC9-EBD5-75FBD65CFF83" name="jugador">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>E713A066-9179-72CD-A3D9-2828E5125D50</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jugador" id="E76AD875-179D-2B13-C9E5-291A4448F193">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>005127DE-60C2-8541-5C11-76138D43BCE5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DDA2A70D-F483-B6B4-9A92-F09C4ABB47AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C2E58D4-70CC-481A-4DA6-AA57EF425642" referredColumn="464DA2EC-AD20-6D8A-0F67-B96301E28CF9"/>
+</associations>
+</Column>
+<Column name="id_equipo" id="C408CFC0-B39D-EF49-5229-B333CA0F59CD">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>F41CA049-119A-6543-A94B-48CFD0C40FB8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>40E68A40-6528-0D85-6538-BAEDB30D9D4B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA670ACD-8F3C-8104-78C4-F50C3EFA95F1" referredColumn="56207568-1047-2A32-C9ED-B6047605E68E"/>
+</associations>
+</Column>
+<Column name="cod_posicion" id="0F21AAA5-05A8-9AE2-89B6-7CB640146CF1">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>1E1485F1-E353-D25A-454A-1AF706DB6651</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC3023F7-E808-CD6B-B522-059619AD5974</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6924DB75-3769-F2B1-6D9C-F5FCC05D93E8" referredColumn="F102D196-7836-4416-D30B-CBEE4CC15DD8"/>
+</associations>
+</Column>
+<Column name="numero_camiseta" id="865DBB6A-B0D5-0136-0B7F-7E621F1A8831">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>0EF3815F-59B9-1CB9-191E-EA3C48649BCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA6F9541-22BD-5BAC-5064-AB24B4C04C89</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estatura_cm" id="6D292877-A1AB-81CF-C6F9-28F1A5C83D39">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>CF017CFF-EBD5-8F35-BBDB-70FB8D37DC3D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA6F9541-22BD-5BAC-5064-AB24B4C04C89</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_kg" id="821337D9-C8D7-2B76-B956-056299B39BE9">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>76045DCB-2374-AB72-6269-F17E6BAA8BE2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE09B2AC-DAAF-D54D-CC2E-032AEF93284E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pie_habil" id="0DEBEDB7-D31E-0C5F-9F71-A5C5831738A2">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>932CC94D-D4A9-1E1D-B0A3-96077911EE6B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5CB935A3-F210-09F3-DF55-85D07CA71BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="200FF3CD-F5C2-812A-85D5-0452A63071A2" name="pk_jugador">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>70CD5CE8-F4A5-6E29-5788-5D09D963CF11</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AD875-179D-2B13-C9E5-291A4448F193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDBAE8EB-082E-5E7F-AD34-B1B67D377A64" name="uk_jugador_camiseta">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>3B36DB2F-36C7-C3D3-0562-A0BD40AEC90E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C408CFC0-B39D-EF49-5229-B333CA0F59CD"/>
+<colUsage columnID="865DBB6A-B0D5-0136-0B7F-7E621F1A8831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB6EE18B-D5A2-AAC0-C167-E5B7A2F877B2" name="fk_jugador_equipo">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C408CFC0-B39D-EF49-5229-B333CA0F59CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB9E5A95-F935-DDD1-2409-DF3D0F2C6349" name="fk_jugador_persona">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AD875-179D-2B13-C9E5-291A4448F193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E612E6B3-B075-CCC6-4F64-EBA00F24DE89" name="fk_jugador_posicion">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F21AAA5-05A8-9AE2-89B6-7CB640146CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

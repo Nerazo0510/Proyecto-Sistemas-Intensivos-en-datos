@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB03F25B-4D4D-520A-415C-6653A5F3F245" containerWithKeyObject="23CA7C04-AC3D-1118-5FDD-9B8252F5506D" localFKIndex="C63FD992-8314-6D7F-E5D3-4B7C1E6742C8" name="fk_tarjeta_jugador">
+<sourceDDLFile>Modelo_liga_futbol_3NF.sql</sourceDDLFile>
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:49:37 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<importedID>2F2061E1-A825-F36D-8C24-90A0B5AE0A96</importedID>
+<referredTableLongName>jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD23600E-AEC9-FDC9-EBD5-75FBD65CFF83</referredTableID>
+<keyObject>200FF3CD-F5C2-812A-85D5-0452A63071A2</keyObject>
+<referredKeyID>200FF3CD-F5C2-812A-85D5-0452A63071A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jugador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

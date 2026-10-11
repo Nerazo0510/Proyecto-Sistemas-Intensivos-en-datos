@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Relacional proyecto" id="68F5C321-D536-EB4A-F80A-97BE50491E12" version="3.5">
+<createdBy>erazo</createdBy>
+<createdTime>2026-10-11 15:48:00 UTC</createdTime>
+<ownerDesignName>Modelo Relacional proyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>68F5C321-D536-EB4A-F80A-97BE50491E12</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3C0C476C-0795-6C57-AC9F-6D4F56289115">
+<designStoragePath>C:\Modelo_liga_futbol_3NF</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
